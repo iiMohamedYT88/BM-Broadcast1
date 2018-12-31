@@ -67,7 +67,7 @@ client.on('ready',  () => {
     if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('b!adminbc')){
-if(!message.author.id === '476185102922285066') return;
+if(!message.author.id === '529328645307629570') return;
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
